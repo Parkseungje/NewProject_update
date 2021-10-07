@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+#mainImage{
+    position: absolute;
+    left: 650px;
+    top: 80px;
+}
+
+#menu{
+    position: absolute;
+    right:40px;
+}
+
+.menu1{
+    margin-right: 20px;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+body{
+    background-color:lightcyan;
+
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#registerForm{
+
+    display: inline-block;
+    position : absolute;
+    left: 800px;
+    top: 100px;
+}
+
+.registerBox{
+	margin-bottom: 10px;
+	height : 40px;
+	width : 400px;
+}
+
+#sameBtn{
+
+    margin-left: 20px;
+    height: 40px;
+}
+
+#joinTitle{
+	position : absolute;
+    left: 950px;
+    font-size: 20pt;
+    font-weight: bold;
+}
