@@ -3,9 +3,20 @@
 <mapper namespace="com.example.selfmade.userRegisteration.userRegisterationDAO">
     <select id="getTestData" resultType="com.example.selfmade.userRegisteration.UserRegisterationModel">
         select
+            user_code,
             user_name,
             user_id
         from
             t_user
     </select>
+
+    <insert id="joinMember" >
+        insert into t_user (user_name, user_id, user_password, user_email)
+        values(
+        #{user_name},
+        #{user_id},
+        #{user_password},
+        #{user_email}
+        )
+    </insert>
 </mapper>
