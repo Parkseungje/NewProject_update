@@ -1,1 +1,1 @@
-# HttpServletRequest 사용
+# UserRegisteration.java - HttpServletRequest 사용
